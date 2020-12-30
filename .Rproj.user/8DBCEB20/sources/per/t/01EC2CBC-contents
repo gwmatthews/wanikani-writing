@@ -1,7 +1,0 @@
-name: "WaniKani Writing Pratice Sheets"
-output_dir: "."
-navbar:
-  title: "漢字"
-output:
-  html_document:
-    theme: simplex

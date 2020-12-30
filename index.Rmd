@@ -6,26 +6,62 @@ All of the WaniKani kanji printed on sheets for writing practice.
 
 ### Grouped by WaniKani Levels
 
-- [Levels 1 - 5](WK-1-5-writing.pdf)  ([a4 paper](WK-1-5-writing-a4.pdf))
-- [Levels 6 - 10](WK-6-10-writing.pdf)  ([a4 paper](WK-6-10-writing-a4.pdf))
-- [Levels 11 - 15](WK-11-15-writing.pdf)  ([a4 paper](WK-11-15-writing-a4.pdf))
-- [Levels 16 - 20](WK-16-20-writing.pdf)  ([a4 paper](WK-16-20-writing-a4.pdf))
-- [Levels 21 - 25](WK-21-25-writing.pdf)  ([a4 paper](WK-21-25-writing-a4.pdf))
-- [Levels 26 - 30](WK-26-30-writing.pdf)  ([a4 paper](WK-26-30-writing-a4.pdf))
-- [Levels 31 - 35](WK-31-35-writing.pdf)  ([a4 paper](WK-31-35-writing-a4.pdf))
-- [Levels 36 - 40](WK-36-40-writing.pdf)  ([a4 paper](WK-36-40-writing-a4.pdf))
-- [Levels 41 - 45](WK-41-45-writing.pdf)  ([a4 paper](WK-41-45-writing-a4.pdf))
-- [Levels 46 - 50](WK-46-50-writing.pdf)  ([a4 paper](WK-46-50-writing-a4.pdf))
-- [Levels 51 - 55](WK-51-55-writing.pdf)  ([a4 paper](WK-51-55-writing-a4.pdf))
-- [Levels 56 - 60](WK-56-60-writing.pdf)  ([a4 paper](WK-56-60-writing-a4.pdf))
+- Levels 1 - 5
+  - 4 kanji per sheet --  [US letter paper](WK-1-5-writing-lg.pdf)  -- [a4 paper](WK-1-5-writing-lg-a4.pdf)
+  - 6 kanji per sheet --  [US letter paper](WK-1-5-writing.pdf)  -- [a4 paper](WK-1-5-writing-a4.pdf)
+  - 8 kanji per sheet --  [US letter paper](WK-1-5-writing-sm.pdf)  -- [a4 paper](WK-1-5-writing-sm-a4.pdf)
+- Levels 6 - 10
+  - 4 kanji per sheet --  [US letter paper](WK-6-10-writing-lg.pdf)  -- [a4 paper](WK-6-10-writing-lg-a4.pdf)
+  - 6 kanji per sheet --  [US letter paper](WK-6-10-writing.pdf)  -- [a4 paper](WK-6-10-writing-a4.pdf)
+  - 8 kanji per sheet --  [US letter paper](WK-6-10-writing-sm.pdf)  -- [a4 paper](WK-6-10-writing-sm-a4.pdf)
+- Levels 11 - 15
+  - 4 kanji per sheet --  [US letter paper](WK-11-15-writing-lg.pdf)  -- [a4 paper](WK-11-15-writing-lg-a4.pdf)
+  - 6 kanji per sheet --  [US letter paper](WK-11-15-writing.pdf)  -- [a4 paper](WK-11-15-writing-a4.pdf)
+  - 8 kanji per sheet --  [US letter paper](WK-11-15-writing-sm.pdf)  -- [a4 paper](WK-11-15-writing-sm-a4.pdf)
+- Levels 16 - 20
+  - 4 kanji per sheet --  [US letter paper](WK-16-20-writing-lg.pdf)  -- [a4 paper](WK-16-20-writing-lg-a4.pdf)
+  - 6 kanji per sheet --  [US letter paper](WK-16-20-writing.pdf)  -- [a4 paper](WK-16-20-writing-a4.pdf)
+  - 8 kanji per sheet --  [US letter paper](WK-16-20-writing-sm.pdf)  -- [a4 paper](WK-16-20-writing-sm-a4.pdf)
+- Levels 21 - 25
+  - 4 kanji per sheet --  [US letter paper](WK-21-25-writing-lg.pdf)  -- [a4 paper](WK-21-25-writing-lg-a4.pdf)
+  - 6 kanji per sheet --  [US letter paper](WK-21-25-writing.pdf)  -- [a4 paper](WK-21-25-writing-a4.pdf)
+  - 8 kanji per sheet --  [US letter paper](WK-21-25-writing-sm.pdf)  -- [a4 paper](WK-21-25-writing-sm-a4.pdf)
+- Levels 26 - 30
+  - 4 kanji per sheet --  [US letter paper](WK-26-30-writing-lg.pdf)  -- [a4 paper](WK-26-30-writing-lg-a4.pdf)
+  - 6 kanji per sheet --  [US letter paper](WK-26-30-writing.pdf)  -- [a4 paper](WK-26-30-writing-a4.pdf)
+  - 8 kanji per sheet --  [US letter paper](WK-26-30-writing-sm.pdf)  -- [a4 paper](WK-26-30-writing-sm-a4.pdf)
+- Levels 31 - 35
+  - 4 kanji per sheet --  [US letter paper](WK-31-35-writing-lg.pdf)  -- [a4 paper](WK-31-35-writing-lg-a4.pdf)
+  - 6 kanji per sheet --  [US letter paper](WK-31-35-writing.pdf)  -- [a4 paper](WK-31-35-writing-a4.pdf)
+  - 8 kanji per sheet --  [US letter paper](WK-31-35-writing-sm.pdf)  -- [a4 paper](WK-31-35-writing-sm-a4.pdf)
+- Levels 36 - 40
+  - 4 kanji per sheet --  [US letter paper](WK-36-40-writing-lg.pdf)  -- [a4 paper](WK-36-40-writing-lg-a4.pdf)
+  - 6 kanji per sheet --  [US letter paper](WK-36-40-writing.pdf)  -- [a4 paper](WK-36-40-writing-a4.pdf)
+  - 8 kanji per sheet --  [US letter paper](WK-36-40-writing-sm.pdf)  -- [a4 paper](WK-36-40-writing-sm-a4.pdf)
+- Levels 41 - 45
+  - 4 kanji per sheet --  [US letter paper](WK-41-45-writing-lg.pdf)  -- [a4 paper](WK-41-45-writing-lg-a4.pdf)
+  - 6 kanji per sheet --  [US letter paper](WK-41-45-writing.pdf)  -- [a4 paper](WK-41-45-writing-a4.pdf)
+  - 8 kanji per sheet --  [US letter paper](WK-41-45-writing-sm.pdf)  -- [a4 paper](WK-41-45-writing-sm-a4.pdf)
+- Levels 46 - 50
+  - 4 kanji per sheet --  [US letter paper](WK-46-50-writing-lg.pdf)  -- [a4 paper](WK-46-50-writing-lg-a4.pdf)
+  - 6 kanji per sheet --  [US letter paper](WK-46-50-writing.pdf)  -- [a4 paper](WK-46-50-writing-a4.pdf)
+  - 8 kanji per sheet --  [US letter paper](WK-46-50-writing-lg.pdf)  -- [a4 paper](WK-46-50-writing-sm-a4.pdf)
+- Levels 51 - 55
+  - 4 kanji per sheet --  [US letter paper](WK-51-55-writing-lg.pdf)  -- [a4 paper](WK-51-55-writing-lg-a4.pdf)
+  - 6 kanji per sheet --  [US letter paper](WK-51-55-writing.pdf)  -- [a4 paper](WK-51-55-writing-a4.pdf)
+  - 8 kanji per sheet --  [US letter paper](WK-51-55-writing-sm.pdf)  -- [a4 paper](WK-51-55-writing-sm-a4.pdf)
+- Levels 56 - 60
+  - 5 kanji per sheet --  [US letter paper](WK-56-60-writing-lg.pdf)  -- [a4 paper](WK-56-60-writing-lg-a4.pdf)
+  - 6 kanji per sheet --  [US letter paper](WK-56-60-writing.pdf)  -- [a4 paper](WK-56-60-writing-a4.pdf)
+  - 8 kanji per sheet --  [US letter paper](WK-56-60-writing-sm.pdf)  -- [a4 paper](WK-56-60-writing-sm-a4.pdf)
 
 ### Grouped by JLPT level
 
-- [JLPT 5](JLPT-5-writing.pdf) ([a4 paper](JLPT-5-writing-a4.pdf))
-- [JLPT 4](JLPT-4-writing.pdf) ([a4 paper](JLPT-4-writing-a4.pdf))
-- [JLPT 3](JLPT-3-writing.pdf) ([a4 paper](JLPT-3-writing-a4.pdf))
-- [JLPT 2](JLPT-2-writing.pdf) ([a4 paper](JLPT-2-writing-a4.pdf))
-- [JLPT 1](JLPT-1-writing.pdf) ([a4 paper](JLPT-1-writing-a4.pdf))
+- [JLPT 5](JLPT-5-writing.pdf) -- [a4 paper](JLPT-5-writing-a4.pdf)
+- [JLPT 4](JLPT-4-writing.pdf) -- [a4 paper](JLPT-4-writing-a4.pdf)
+- [JLPT 3](JLPT-3-writing.pdf) -- [a4 paper](JLPT-3-writing-a4.pdf)
+- [JLPT 2](JLPT-2-writing.pdf) -- [a4 paper](JLPT-2-writing-a4.pdf)
+- [JLPT 1](JLPT-1-writing.pdf) -- [a4 paper](JLPT-1-writing-a4.pdf)
 
 ***
 
