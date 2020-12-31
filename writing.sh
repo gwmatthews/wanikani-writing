@@ -94,7 +94,7 @@ else
     PAPER=letter
 fi
 
-# set paper size
+# set paper size --- overwrites template
 
 if [ $PAPER = a4 ]; then
  sed -i -e 's/letterpaper/a4paper/' -e 's/-writing\%/-writing-a4\%/' writing.tex
@@ -102,7 +102,7 @@ else
  sed -i -e 's/a4paper/letterpaper/' -e 's/-writing-a4\%/-writing\%/' writing.tex
 fi
 
-# set small or large character sizes if option is given
+# set small or large character sizes if option is given -- overwrites template which is hard coded with default values
 
 if [ $SIZE = -sm ]; then
  sed -i -e 's/-writing/-writing-sm/' -e 's/size=title/size=fbox/' -e 's/14/10/g' -e 's/42/33/g' -e 's/,7/,10/' -e 's/,8/,11/' -e 's/columns=9/columns=12/' writing.tex
@@ -111,7 +111,8 @@ elif [ $SIZE = -lg ]; then
 fi
 
 
-# parse csv file -- substitute commas or semicolons with tabs; delete quotes
+# parse csv file -- substitute commas or semicolons with tabs, delete quotes
+
 parse() {
  sed -e 's_,_\t_g'  -e 's_;_\t_g' -e 's_"__g'   
 }
@@ -119,24 +120,28 @@ parse() {
 # get fields from csv files
 # only first three are used, single kana reading (WK "Reading Brief"), kanji (WK "Item"), list of readings by type (WK "Reading by type (on kun)" 
 # 5 fields are included here for compatibility with csv files used for making flashcards
+
 getfields() {
 awk -F"\t" '{ print $1 "\t" $2 "\t" $3 "\t" $4 "\t" $5 }'
 }
 
 # use external sed file to convert first field from hiragana to katakana if first reading is onyomi
+
 katakana() {
 sed -f assets/kana.sed
 }
 
 # get first two fields (reading and kanji) and add LaTeX code
+
 addlatex() {
  awk -F"\t" '{ print "\\kana{" $1 "}\\kanji{" $2 " }\\boxes\\moreboxes" }'
 }
 
 # assemble content
+
 COMPLETE=$(cat $FILENAME | parse | getfields | katakana | addlatex)
 
-# change ouput file names to reflect paper size change if needed, copy modified template file and compile with xelatex 
+# create content.tex file named according to paper size, copy edited template file, compile with xelatex
 
 if [ $PAPER = a4 ]; then
        echo "$COMPLETE" > $SET-writing$SIZE-a4-content.tex
