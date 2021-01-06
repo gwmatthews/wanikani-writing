@@ -98,11 +98,16 @@ All of the WaniKani kanji printed on sheets for writing practice.
 
 ### Grouped by JLPT level
 
-- [JLPT 5](JLPT-5-writing.pdf) -- [a4 paper](JLPT-5-writing-a4.pdf)
-- [JLPT 4](JLPT-4-writing.pdf) -- [a4 paper](JLPT-4-writing-a4.pdf)
-- [JLPT 3](JLPT-3-writing.pdf) -- [a4 paper](JLPT-3-writing-a4.pdf)
-- [JLPT 2](JLPT-2-writing.pdf) -- [a4 paper](JLPT-2-writing-a4.pdf)
-- [JLPT 1](JLPT-1-writing.pdf) -- [a4 paper](JLPT-1-writing-a4.pdf)
+- 6 kanji per sheet -- [JLPT 5](JLPT-5-writing.pdf) -- [a4 paper](JLPT-5-writing-a4.pdf)
+- 8 kanji per sheet -- [JLPT 5](JLPT-5-writing-sm.pdf) -- [a4 paper](JLPT-5-writing-sm-a4.pdf)
+- 6 kanji per sheet -- [JLPT 4](JLPT-4-writing.pdf) -- [a4 paper](JLPT-4-writing-a4.pdf)
+- 8 kanji per sheet -- [JLPT 4](JLPT-4-writing-sm.pdf) -- [a4 paper](JLPT-4-writing-sm-a4.pdf)
+- 6 kanji per sheet -- [JLPT 3](JLPT-3-writing.pdf) -- [a4 paper](JLPT-3-writing-a4.pdf)
+- 8 kanji per sheet -- [JLPT 3](JLPT-3-writing-sm.pdf) -- [a4 paper](JLPT-3-writing-sm-a4.pdf)
+- 6 kanji per sheet -- [JLPT 2](JLPT-2-writing.pdf) -- [a4 paper](JLPT-2-writing-a4.pdf)
+- 8 kanji per sheet -- [JLPT 2](JLPT-2-writing-sm.pdf) -- [a4 paper](JLPT-2-writing-sm-a4.pdf)
+- 6 kanji per sheet -- [JLPT 1](JLPT-1-writing.pdf) -- [a4 paper](JLPT-1-writing-a4.pdf)
+- 8 kanji per sheet -- [JLPT 1](JLPT-1-writing-sm.pdf) -- [a4 paper](JLPT-1-writing-sm-a4.pdf)
 
 ***
 ### Calligraphy practice
