@@ -1,12 +1,35 @@
-img[alt="medium-photo"] {
-  border: 5px solid gray;
+img {
+  /* border: 20px solid white; 
   border-radius: 5px;
   box-shadow: 4px 4px 3px #111;
+  margin-left: 20%;
+  position: absolute;
+  */
 }
 
 .photo-box {
-  padding: 5px;
-  max-width: 90%;
+  background-color: white;
+  padding: 10px;
+  width: 500px;
+  position: relative;
+}
+
+
+
+img {
+    text-align: center;
+    width: 50%;
+    margin: 0 23% 0 23%;
+    box-shadow: 5px 5px 5px black;
+}
+
+.cc-by {
+  border-width: 0; 
+  width: 80px;
+  height: 40px;
+  display: inline-block;
+  margin: 0 10px;
+  box-shadow: none;
 }
 
 .photo-credit {
@@ -78,3 +101,4 @@ footer img {
   margin-top: 3rem;
 }
 }
+

@@ -4,6 +4,12 @@ title: "WaniKani Writing Practice"
 
 All of the WaniKani kanji printed on sheets for writing practice.
 
+***
+
+![](assets/samples-2.png){width=400px}
+
+***
+
 #### Grouped by WaniKani Levels
 
 - Levels 1 - 5
@@ -84,9 +90,11 @@ All of the WaniKani kanji printed on sheets for writing practice.
 ***
   
 - Levels 56 - 60
-  - 5 kanji per sheet --  [US letter paper](WK-56-60-writing-lg.pdf)  -- [a4 paper](WK-56-60-writing-lg-a4.pdf)
+  - 4 kanji per sheet --  [US letter paper](WK-56-60-writing-lg.pdf)  -- [a4 paper](WK-56-60-writing-lg-a4.pdf)
   - 6 kanji per sheet --  [US letter paper](WK-56-60-writing.pdf)  -- [a4 paper](WK-56-60-writing-a4.pdf)
   - 8 kanji per sheet --  [US letter paper](WK-56-60-writing-sm.pdf)  -- [a4 paper](WK-56-60-writing-sm-a4.pdf)
+  
+***
 
 ### Grouped by JLPT level
 
@@ -97,5 +105,14 @@ All of the WaniKani kanji printed on sheets for writing practice.
 - [JLPT 1](JLPT-1-writing.pdf) -- [a4 paper](JLPT-1-writing-a4.pdf)
 
 ***
+### Calligraphy practice
 
-<footer>!<a rel="license" href="http://creativecommons.org/licenses/by/2.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/2.0/88x31.png" /></a> This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/2.0/">Creative Commons Attribution 2.0 Generic License</a>, by George Matthews.</footer>
+A collection of two character combinations for praticing brush calligraphy. They are made with a beautiful calligraphic font written by calligraphy master Norio Nagayama. They include a stroke order diagram as well as a light example to trace and some spaces for practice. Included are some Buddhist terms as well as some other expressions.
+
+- [Calligraphy practice](calligraphy-practice.pdf)
+
+- [Calligraphy practice -- a4 paper size](calligraphy-practice-a4.pdf)
+
+***
+
+<footer><a rel="license" href="http://creativecommons.org/licenses/by/2.0/"><img alt="Creative Commons License" class="cc-by" src="https://i.creativecommons.org/l/by/2.0/88x31.png" /></a> This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/2.0/">Creative Commons Attribution 2.0 Generic License</a>, by George Matthews.</footer>
