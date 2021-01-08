@@ -3,6 +3,8 @@
 \setCJKmainfont{KanjiStrokeOrders}
 \setCJKsansfont{ipag.ttf}
 \newCJKfontfamily\ipag{ipag.ttf}
+\newCJKfontfamily\fancyfont{nagayama_kai}
+%\newCJKfontfamily\fancyfont{HakusyuGyosyoPro_kk}
 \usepackage{anyfontsize}
 \usepackage[textheight=240mm, textwidth=180mm ]{geometry} 
 \usepackage[most]{tcolorbox}
@@ -32,7 +34,7 @@
 \pagestyle{fancy}
 %%%%
 %%%% CHANGE TO CHANGE HEADER
-\lhead{\levels }
+\lhead{\levels}
 \chead{}
 \rhead{}
 \lfoot{}
@@ -45,11 +47,22 @@
 \newcommand{\kana}[1]{\begin{tcolorbox}[colframe=white, size=minimal]\ipag\fontsize{14}{14}#1 \end{tcolorbox}}
 %
 %
-\newcommand{\kanji}[1]{\centering\begin{tcolorbox}[colframe=black!50, left=0mm,watermark graphics=assets/grid.png, watermark stretch, watermark opacity=0.4,square]\hfuzz=99pt\fontsize{42}{42}#1 \end{tcolorbox}}
+\newcommand{\kanji}[1]{\centering\begin{tcolorbox}[colframe=black!50, left=0mm, square, overlay={\draw [gray, dashed] (frame.south) -- (frame.north);
+\draw [gray, dashed] (frame.east) -- (frame.west);}]\hfuzz=99pt\fontsize{42}{42}#1 \end{tcolorbox}}
 %
 %
-\newcommand{\boxes}{\foreach \n in {1,...,7}{\begin{tcolorbox}[watermark graphics=assets/grid.png, watermark stretch, watermark opacity=0.4,square] \end{tcolorbox}}}
-\newcommand{\moreboxes}{\begin{tcolorbox}[colframe=white] \end{tcolorbox}\foreach \n in {1,...,8}{\begin{tcolorbox}[watermark graphics=assets/grid.png, watermark stretch, watermark opacity=0.4,square] \end{tcolorbox}}}
+\newcommand{\strokes}[1]{\centering\begin{tcolorbox}[colframe=white, colupper=black!65,left=0mm, square]\hfuzz=99pt\fontsize{42}{42}#1 \end{tcolorbox}}
+%
+%
+\newcommand{\fancykanji}[1]{\centering\begin{tcolorbox}[colframe=black!50, left=0mm, square, overlay={\draw [gray, dashed] (frame.south) -- (frame.north);
+\draw [gray, dashed] (frame.east) -- (frame.west);}]\hfuzz=99pt\fancyfont\fontsize{42}{42}#1 \end{tcolorbox}}
+%
+%
+\newcommand{\boxes}{\foreach \n in {1,...,7}{\begin{tcolorbox}[square, overlay={\draw [gray, dashed] (frame.south) -- (frame.north);
+\draw [gray, dashed] (frame.east) -- (frame.west);}] \end{tcolorbox}}}
+\newcommand{\blank}{\begin{tcolorbox}[colframe=white] \end{tcolorbox}}
+\newcommand{\moreboxes}{\foreach \n in {1,...,8}{\begin{tcolorbox}[square, overlay={\draw [gray, dashed] (frame.south) -- (frame.north);
+\draw [gray, dashed] (frame.east) -- (frame.west);}] \end{tcolorbox}}}
 %
 %
 %%%
