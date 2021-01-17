@@ -9,11 +9,14 @@ die() {
 # Basic usage instructions
 usage() {
     echo ""
+    echo "<filename>" refers to csv file with the following fields, downloadable from Wanikani Item Inspector.
+    echo Reading Brief, Item, Meaning Brief, Item Type, Reading by Type.
     echo Basic use: 6 kanji per sheet "$0 <filename>"
     echo For a4 paper "$0 -p a4 <filename>"
     echo For small kanji: 8 per sheet "$0 -s small <filename>"
     echo For large kanji: 4 per sheet "$0 -o large <filename>"
     echo Kanji size and papersize can be changed together, e.g. "$0 -s small -p a4 <filename>" 
+    echo For brush practice sheets, requires HakusyuKaisyoBold true type font - free on the web. "$0 -f <filename>"
     echo ""
     echo "$0 -h -? or --help" print this message.
     echo ""
@@ -33,6 +36,7 @@ SET=
 PAPER=
 COLS=
 SIZE=
+STYLE=
 
 # Options
 
@@ -41,6 +45,9 @@ while :; do
         -h|-\?|--help)
             usage    # Display a usage synopsis.
             exit
+            ;;
+        -f)
+            STYLE=-fancy
             ;;
         -p)
             if [ "$2" ]; then
@@ -98,8 +105,6 @@ fi
 
 if [ $PAPER = a4 ]; then
  sed -i -e 's/letterpaper/a4paper/' -e 's/-writing\%/-writing-a4\%/' writing.tex
-else
- sed -i -e 's/a4paper/letterpaper/' -e 's/-writing-a4\%/-writing\%/' writing.tex
 fi
 
 # set small or large character sizes if option is given -- overwrites template which is hard coded with default values
@@ -110,7 +115,6 @@ elif [ $SIZE = -lg ]; then
  sed -i -e 's/-writing/-writing-lg/' -e 's/14/18/g' -e 's/42/69/g' -e 's/,7/,4/' -e 's/,8/,5/' -e 's/columns=9/columns=6/' writing.tex
 fi
 
-
 # parse csv file -- substitute commas or semicolons with tabs, delete quotes
 
 parse() {
@@ -118,8 +122,6 @@ parse() {
 }
 
 # get fields from csv files
-# only first three are used, single kana reading (WK "Reading Brief"), kanji (WK "Item"), list of readings by type (WK "Reading by type (on kun)" 
-# 5 fields are included here for compatibility with csv files used for making flashcards
 
 getfields() {
 awk -F"\t" '{ print $1 "\t" $2 "\t" $3 "\t" $4 "\t" $5 }'
@@ -134,23 +136,34 @@ sed -f assets/kana.sed
 # get first two fields (reading and kanji) and add LaTeX code
 
 addlatex() {
- awk -F"\t" '{ print "\\kana{" $1 "}\\kanji{" $2 " }\\boxes\\moreboxes" }'
+ awk -F"\t" '{ print "\\kana{" $1 "}\\kanji{" $2 " }\\boxes\\blank\\moreboxes" }'
 }
 
-# assemble content
+# alternate LaTeX for brush practice sheets
 
-COMPLETE=$(cat $FILENAME | parse | getfields | katakana | addlatex)
+addfancylatex() {
+ awk -F"\t" '{ print "\\strokes{" $2 "}\\fancykanji{" $2 " }\\boxes\\kana{" $1 " }\\moreboxes" }'
+}
+
+# assemble content 
+
+if [ $STYLE = -fancy ]; then
+  sed -i -e 's/-writing/-fancy-writing/' writing.tex
+  COMPLETE=$(cat $FILENAME | parse | getfields | katakana | addfancylatex)
+else
+  COMPLETE=$(cat $FILENAME | parse | getfields | katakana | addlatex)
+fi
 
 # create content.tex file named according to paper size, copy edited template file, compile with xelatex
 
 if [ $PAPER = a4 ]; then
-       echo "$COMPLETE" > $SET-writing$SIZE-a4-content.tex
-       cp writing.tex $SET-writing$SIZE-a4.tex
-       xelatex $SET-writing$SIZE-a4.tex
+       echo "$COMPLETE" > $SET$STYLE-writing$SIZE-a4-content.tex
+       cp writing.tex $SET$STYLE-writing$SIZE-a4.tex
+       xelatex $SET$STYLE-writing$SIZE-a4.tex
 else
-       echo "$COMPLETE" > $SET-writing$SIZE-content.tex
-       cp writing.tex $SET-writing$SIZE.tex
-       xelatex $SET-writing$SIZE.tex
+       echo "$COMPLETE" > $SET$STYLE-writing$SIZE-content.tex
+       cp writing.tex $SET$STYLE-writing$SIZE.tex
+       xelatex $SET$STYLE-writing$SIZE.tex
 fi
 
 # clean up the mess
