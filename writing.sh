@@ -14,7 +14,7 @@ usage() {
     echo Basic use: 6 kanji per sheet "$0 <filename>"
     echo For a4 paper "$0 -p a4 <filename>"
     echo For small kanji: 8 per sheet "$0 -s small <filename>"
-    echo For large kanji: 4 per sheet "$0 -o large <filename>"
+    echo For large kanji: 4 per sheet "$0 -s large <filename>"
     echo Kanji size and papersize can be changed together, e.g. "$0 -s small -p a4 <filename>" 
     echo For brush practice sheets, requires HakusyuKaisyoBold true type font - free on the web. "$0 -f <filename>"
     echo ""
