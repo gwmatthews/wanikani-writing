@@ -18,10 +18,10 @@ title: "WaniKani Writing Practice"
 
 #### Kanji grouped by WaniKani Levels {.list}
 
-- [Complete set](zipped/WK.zip) 6 kanji per page [a4 paper](zipped/WK-a4.zip)
-- [Complete set](zipped/WK-brush.zip) 6 kanji per page - brush practice [a4 paper](zipped/WK-brush-a4.zip)
-- [Complete set](zipped/WK-sm.zip) 8 kanji per page [a4 paper](zipped/WK-sm-a4.zip)
-- [Complete set](zipped/WK-lg.zip) 4 kanji per page [a4 paper](zipped/WK-lg-a4.zip)
+- [All Levels](zipped/WK.zip) 6 kanji per page [a4 paper](zipped/WK-a4.zip)
+- [All Levels](zipped/WK-brush.zip) 6 kanji per page - brush practice [a4 paper](zipped/WK-brush-a4.zip)
+- [All Levels](zipped/WK-sm.zip) 8 kanji per page [a4 paper](zipped/WK-sm-a4.zip)
+- [All Levels](zipped/WK-lg.zip) 4 kanji per page [a4 paper](zipped/WK-lg-a4.zip)
 
 
 Large version has 4 kanji per page, medium has 6 and small has 8. Brush practice version has stroke order diagram as well as each kanji printed in a brush font so you can tell which sort of brush stroke is needed. 
@@ -124,10 +124,8 @@ Large version has 4 kanji per page, medium has 6 and small has 8. Brush practice
 
 ### Grouped by JLPT level {.list}
 
-Note: the JLPT level 1 set only covers the kanji included in Wanikani and so it does not include all of the kanji included in the JLPT 1. I'll fix this as soon as I can get a hold of the data in a form I can work with without having to manually enter a couple of hundred kanji and readings.
-
-- [Complete set](zipped/JLPT.zip) 6 kanji per page -- [a4 paper](zipped/JLPT-a4.zip)
-- [Complete set](zipped/JLPT-sm.zip) 8 kanji per page -- [a4 paper](zipped/JLPT-sm-a4.zip)
+- [All levels](zipped/JLPT.zip) 6 kanji per page -- [a4 paper](zipped/JLPT-a4.zip)
+- [All levels](zipped/JLPT-sm.zip) 8 kanji per page -- [a4 paper](zipped/JLPT-sm-a4.zip)
 
 - medium -- [JLPT 5](JLPT-5-writing.pdf) -- [a4](JLPT-5-writing-a4.pdf)
 - small -- [JLPT 5](JLPT-5-writing-sm.pdf) -- [a4](JLPT-5-writing-sm-a4.pdf)
@@ -137,8 +135,10 @@ Note: the JLPT level 1 set only covers the kanji included in Wanikani and so it 
 - small -- [JLPT 3](JLPT-3-writing-sm.pdf) -- [a4](JLPT-3-writing-sm-a4.pdf)
 - medium -- [JLPT 2](JLPT-2-writing.pdf) -- [a4](JLPT-2-writing-a4.pdf)
 - small -- [JLPT 2](JLPT-2-writing-sm.pdf) -- [a4](JLPT-2-writing-sm-a4.pdf)
-- medium -- [JLPT 1](JLPT-1-writing.pdf) -- [a4](JLPT-1-writing-a4.pdf)
-- small -- [JLPT 1](JLPT-1-writing-sm.pdf) -- [a4](JLPT-1-writing-sm-a4.pdf)
+- medium -- [JLPT 1 (WK kanji only)](JLPT-1-writing.pdf) -- [a4](JLPT-1-writing-a4.pdf)
+- small -- [JLPT 1 (WK kanji only)](JLPT-1-writing-sm.pdf) -- [a4](JLPT-1-writing-sm-a4.pdf)
+- medium -- [JLPT 1 (complete -- including non-WK kanji)](JLPT-1-complete-writing.pdf) -- [a4](JLPT-1-complete-writing-a4.pdf)
+- small -- [JLPT 1 (complete)](JLPT-1-complete-writing-sm.pdf) -- [a4](JLPT-1-complete-writing-sm-a4.pdf)
 
 ***
 ### Calligraphy practice {.list}

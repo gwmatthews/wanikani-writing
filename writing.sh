@@ -149,9 +149,11 @@ addfancylatex() {
 
 if [ $STYLE = -fancy ]; then
   sed -i -e 's/-writing/-fancy-writing/' writing.tex
-  COMPLETE=$(cat $FILENAME | parse | getfields | katakana | addfancylatex)
+#  COMPLETE=$(cat $FILENAME | parse | getfields | katakana | addfancylatex)
+  COMPLETE=$(cat $FILENAME | parse | getfields | addfancylatex)
 else
-  COMPLETE=$(cat $FILENAME | parse | getfields | katakana | addlatex)
+#  COMPLETE=$(cat $FILENAME | parse | getfields | katakana | addlatex)
+COMPLETE=$(cat $FILENAME | parse | getfields | addlatex)
 fi
 
 # create content.tex file named according to paper size, copy edited template file, compile with xelatex
